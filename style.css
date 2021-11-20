@@ -1,0 +1,56 @@
+body {
+    background: rgb(255, 249, 242);
+}
+.calories-Body {
+    width: max-content;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid chocolate;
+    padding: 10px;
+    border-radius: 12px;
+    background: rgb(242, 255, 234);
+    text-align: center;
+}
+.calories-Body > h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12pt;
+}
+
+.calories-Content {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-gap: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.calories-Content > span > * {
+    color: rgb(109, 151, 25);
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.calories-Content > span > input {
+    height: 28px;
+    outline: none;
+    width: 48px;
+    border: 1px solid coral;
+}
+
+.calories-Body > input[type=button] {
+    position: relative;
+    top: 30px;
+    border: none;
+    background-color: coral;
+    color: white;
+    padding: 6px;
+}
+
+.result-CSS {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    position: relative;
+    top: 60px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
